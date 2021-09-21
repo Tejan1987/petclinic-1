@@ -9,8 +9,8 @@ metadata:
 spec:
   selector:
     app: petclinic-app
-  type: NodePort
+  type: LoadBalancer
   ports:
-  - nodePort: 32750
+  - LoadBalancer: 32750
     port: 8080
     targetPort: 8080
