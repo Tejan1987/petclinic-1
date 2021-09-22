@@ -4,7 +4,7 @@
 
 replicaCount: 1
 
-image: msedebaydockerhub/petclinic
+image: sekou1987/petclinic
   repository: 
   pullPolicy: IfNotPresent
 
